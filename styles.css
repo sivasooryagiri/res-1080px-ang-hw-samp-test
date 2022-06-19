@@ -201,7 +201,7 @@ h2{
 }
 .sizh1{
     font-size: 66px;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 .p-t{
 padding: 3% 15%;
@@ -267,16 +267,8 @@ padding: 3% 15%;
     color: #f82242;
     
 }
-@media (max-width:1080px) and (min-width:900px) {
-    .sizh1 {
-        font-size: 66px;
-        margin-left: 60px;
-        text-align: center;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 20px;
-        font-size: 125px;
-    } 
+
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem;
@@ -315,5 +307,54 @@ padding: 3% 15%;
     max-width: 540px;
     position: relative;
     left: 9%;
+}
+@media (max-width:1080px) and (min-width:900px) {
+    .sizh1 {
+        font-size: 66px;
+        margin-left: 0px;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        font-size: 125px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        font-size: 24px;
+    }
+   
+    .bt-s {
+        position: relative;
+        left: 29%;
+    }
+    .bt-f{
+        position: relative;
+        left: 23%;
+    }
+ 
+  .btn {
+    width: 156px;
+    margin-top: 30px;
+}
+.ro{
+    
+         
+    transform: rotate(0deg);
+    width: 279px;
+    margin-left: 34%;
+
+}
+.img-dn {
+    position: relative ;
+    top: 58px;
+  
+   
+}
+
+.container, .container-sm {
+    max-width: 540px;
+    position: relative;
+    left: 0%;
 }
 }
